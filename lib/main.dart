@@ -68,7 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
             TextField(
               decoration:
                   InputDecoration(hintText: "Esta es una nueva funcionalidad"),
-            )
+            ),
+            Text("This one's for you github")
           ],
         ),
       ),
