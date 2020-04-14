@@ -53,7 +53,18 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            RaisedButton(onPressed: () {}, child: Text("soy un botoncito"))
+            RaisedButton(onPressed: () {}, child: Text("soy un botoncito")),
+            Column(
+              children: [
+                Text(
+                  "Una pequeña descripción sobre mi:",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                Text("Mi nombre es Gabriel"),
+                Text("Tengo 16 años"),
+                Text("Soy de Perú")
+              ],
+            )
           ],
         ),
       ),
