@@ -64,6 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 Text("Tengo 16 años"),
                 Text("Soy de Perú")
               ],
+            ),
+            TextField(
+              decoration:
+                  InputDecoration(hintText: "Esta es una nueva funcionalidad"),
             )
           ],
         ),
